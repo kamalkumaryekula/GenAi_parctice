@@ -1,4 +1,4 @@
-'''# cleaning the data, removing special characters,space in name and salary.
+# cleaning the data, removing special characters,space in name and salary.
 import re
 
 emp_recs = [
@@ -70,7 +70,7 @@ lowest_paid = [rec[1] for rec in emp_rec if rec[3] == min_salary]
 highest_paid = [rec[1] for rec in emp_rec if rec[3] == max_salary]
 
 print("Lowest salary employees:", lowest_paid)
-print("Highest salary employees:", highest_paid)    '''
+print("Highest salary employees:", highest_paid)    
 
 
 

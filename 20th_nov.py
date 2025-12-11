@@ -194,3 +194,7 @@ gain_of_profit = ((selling_price*5) - (cost_price*4))
 print("gain of profit: ",gain_of_profit)   
 
 
+
+
+
+

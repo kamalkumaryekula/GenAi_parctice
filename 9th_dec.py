@@ -115,9 +115,9 @@ emp_recs = [
 cleaned_recs = [
     (
         emp_id,
-        ' '.join(re.sub(r'[^a-zA-Z0-9 .]', '', name).split()),   # clean name inline
+        ' '.join(re.sub(r'[^a-zA-Z0-9 .]', '', name).split()),   
         age,
-        float(re.sub(r'[^0-9.]', '', str(salary)))               # clean salary inline
+        float(re.sub(r'[^0-9.]', '', str(salary)))               
     )
     for emp_id, name, age, salary in emp_recs
 ]
