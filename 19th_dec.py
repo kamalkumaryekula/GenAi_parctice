@@ -1126,3 +1126,8 @@ for rec in shipping_data:
     r[rec['order_id']] = (rec['customer_name'], rec['shipping_address'].split(",")[1],rec['shipping_address'].split(",")[-1][-6:])
      
 pprint(r)
+
+
+#1. Get customers first name based on the order_id
+
+
