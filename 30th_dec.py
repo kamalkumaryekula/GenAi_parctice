@@ -8,7 +8,7 @@ from pprint import pprint
 with open("C:/Users/Admin/OneDrive/Documents/menu_items.json") as f:
     data = json.load(f)
 
-#pprint(data)
+pprint(data)
 
 #Write a Python script to iterate through the menu data and print the name of each main menu 
 #category. 
@@ -26,14 +26,14 @@ for item in data:
  'FOOD',
  'PIZZA',
  'Catering',
- 'FISH']'''
+ 'FISH']'''      
 
 #Extract and print the name of every menu item that belongs to the "Appetizers" category. 
 
 for item in data:
-    if item['name'] == 'Appetizers':
-        for menuItem in item['menuItems']:
-            print(menuItem['name'])
+        if item['name'] == 'Appetizers':
+            for menuItem in item['menuItems']:
+                print(menuItem['name'])
 
 '''Blooming Onion
 Buff Chkn Eggrolls
@@ -66,7 +66,7 @@ for A in data:
 
 
 avg = sum(price)/len(price)
-print(avg)               #299.1666666666667
+print(round(avg,2))               #299.1666666666667
 print(price)             #[299, 300, 299, 299, 299, 299]
 
 
