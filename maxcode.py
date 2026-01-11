@@ -1,4 +1,4 @@
-l = [3,5,1,13,9,6,7,2]
+'''l = [3,5,1,13,9,6,7,2]
 _max = l[0]
 for x in l[1:]:
     if x > _max:
@@ -75,4 +75,59 @@ def reverse_list(lis):
 
 print(reverse_list([2,6,7,4,65,8,56,65]))
 
-#sorted list
+# two sum
+def two_sum(nums,target):
+    s = set(nums)
+    for x in s:
+        if target-x in s:
+            return [target-x,x]
+        
+print(two_sum([4,3,2,6,8,9,7,11,1],10))
+
+def two(nums,target):
+    for i,x in enumerate(nums):
+        for j,y in enumerate(nums):
+            if i!=j and x+y == target:
+                return [i,j]
+            
+print(two([4,3,2,6,8,9,7,11,1],10))  '''
+
+from typing import List
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        num_map = {}  
+        for i, num in enumerate(nums):
+            needed = target - num  
+            if needed in num_map:
+                return [num_map[needed], i]  
+            num_map[num] = i  
+s = Solution()
+target = 90
+nums = [2,3,4,5,6,7,89,1]
+print(s.twoSum(nums,target))
+
+
+def two_sum(nums, target):
+    index_map = {}
+    for i, num in enumerate(nums):   # ← single loop
+        need = target - num
+        if need in index_map:
+            return [index_map[need], i]
+        index_map[num] = i
+    return None
+
+print(two_sum([1,2,5,9,4,8,6],9))
+
+
+
+
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        num_map = {}  
+        for i, num in enumerate(nums):
+            needed = target - num  
+            if needed in num_map:
+                return [num_map[needed], i]  
+            num_map[num] = i  
+
+
