@@ -69,7 +69,7 @@ print(f"Amount after Compound Interest: {compound_interest:.2f}")
 # Simple Interest: 60000.00
 # Amount after Simple Interest: 160000.00
 # Compound Interest: 76234.17
-# Amount after Compound Interest: 176234.17   
+# Amount after Compound Interest: 176234.17   '''
 
 
 
@@ -152,21 +152,21 @@ print(f"b: {b}")
 
 #output:
 # a: 20
-# b: 10    '''
+# b: 10    
 
 # 16. write a program to find the distance between two points in a cartesian plane.
 
-x1 = float(input("Enter x1: "))
-y1 = float(input("Enter y1: "))
-x2 = float(input("Enter x2: "))
-y2 = float(input("Enter y2: "))
+x1 = float(input("Enter x1: "))   #2
+y1 = float(input("Enter y1: "))   #5
+x2 = float(input("Enter x2: "))   #3
+y2 = float(input("Enter y2: "))   #6
 
 distance = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 
 print(f"Distance between points: {distance:.2f}")
 
 #output:
-# Distance between points: 5.00
+# Distance between points: 1.41
 
 
 
