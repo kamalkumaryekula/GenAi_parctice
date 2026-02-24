@@ -1,5 +1,4 @@
 # 64. Write a program to find the sum and product of the individual digits of a given number. 
-
 num = int(input("Enter a number: "))
 temp = num
 s_d = 0
