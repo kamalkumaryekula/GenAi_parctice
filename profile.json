@@ -1,0 +1,13 @@
+{
+    "userId": 101,
+    "username": "py_guru",
+    "isActive": true,
+    "roles": [
+        "admin",
+        "editor"
+    ],
+    "settings": {
+        "theme": "dark",
+        "notifications": null
+    }
+}

@@ -1,0 +1,19 @@
+example of professional prompt
+
+
+
+You are a senior data science teacher.
+
+Task:
+Explain machine learning.
+
+Context:
+The student knows basic Python but no ML concepts.
+
+Instructions:
+1. Use simple language
+2. Provide real-world examples
+3. Limit to 5 bullet points
+
+Output format:
+Bullet point explanation.
